@@ -1,0 +1,57 @@
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Kotlin and Gradle generated files
+.kotlin/
+.gradle/
+**/build/
+!src/**/build/
+kotlin-js-store/
+
+# Local machine configuration
+local.properties
+
+# Web dependencies
+node_modules/
+
+# Android generated files
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.hprof
+*.log
+
+# Signing credentials and private keys
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+secrets.properties
+service-account*.json
+firebase-adminsdk*.json
+
+# macOS
+.DS_Store
+
+# Xcode user-specific files
+xcuserdata/
+*.xcodeproj/*
+
+# Keep shared Xcode project configuration
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+
+# Exclude user-specific shared workspace settings
+**/xcshareddata/WorkspaceSettings.xcsettings
